@@ -13,6 +13,19 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "text_qiU9wW": {
+          "type": "text",
+          "settings": {
+            "title": "Service Client",
+            "content": "<p>Par mail : contact@doucyne.com</p><p>Réponse sous 48h, 7 jours sur 7.</p>",
+            "enable_follow_on_shop": false
+          }
+        }
+      },
+      "block_order": [
+        "text_qiU9wW"
+      ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
