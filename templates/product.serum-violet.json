@@ -246,6 +246,12 @@
             "manual_deal_block_id": ""
           }
         },
+        "liquid_w7KgG8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign lang = request.locale.iso_code %}\n\n<style>\n.unique-badge-def456 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffdede;\n  color: #b22222;\n  padding: 3px 5px;\n  border-radius: 5px;\n  font-size: 12px;\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-flame-icon-ghi789 {\n  margin-right: 4px;\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.unique-flame-icon-ghi789 svg {\n  width: 12px;\n  height: 12px;\n  animation: unique-flame-animation-mno345 2s infinite;\n}\n\n@keyframes unique-flame-animation-mno345 {\n  0%, 100% { transform: scale(1); }\n  50% { transform: scale(1.2); }\n}\n</style>\n\n<div class=\"unique-badge-def456\">\n  <span>\n    <div class=\"unique-flame-icon-ghi789\">\n      <svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path fill=\"#FF4500\" d=\"M32 2C19 15 9 26 9 38c0 8 6 14 14 14s14-6 14-14c0-8-6-14-14-14s-14 6-14 14c0 8 6 14 14 14s14-6 14-14c0-8-6-14-14-14S18 22 18 30c0 8 6 14 14 14s14-6 14-14c0-8-6-14-14-14z\"/>\n      </svg>\n    </div>\n\n    {% case lang %}\n      {% when 'fr' %}\n        Stock faible\n      {% when 'es' %}\n        Stock bajo\n      {% when 'it' %}\n        Stock basso\n      {% else %}\n        Stock faible\n    {% endcase %}\n  </span>\n</div>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -271,6 +277,7 @@
         "liquid_zAX4Jg",
         "liquid_NeGmez",
         "kaching_bundles_app_block_yfpFwm",
+        "liquid_w7KgG8",
         "buy_buttons",
         "image_EWqHit"
       ],
