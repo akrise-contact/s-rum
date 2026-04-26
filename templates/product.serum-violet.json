@@ -9,6 +9,225 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_dbyWkn": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "logo_list_8TwqkX": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_irAPHx": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cosmo-removebg-preview.avif",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_cgpUH6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Elle-removebg-preview.avif",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_cQTzXQ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/maire_claire-removebg-preview.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_R4Dccy": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/vogue-removebg-preview.avif",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_irAPHx",
+        "logo_cgpUH6",
+        "logo_cQTzXQ",
+        "logo_R4Dccy"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "rich_text_eaRXCm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8eWETa": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir Doucyne ?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8eWETa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_BWUfLV": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_tBGaah": {
+      "type": "multi-column",
+      "blocks": {
+        "item_nRDAnW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/doucyne1.jpg",
+            "column_size": "3",
+            "title": "Menton",
+            "heading_tag": "h4",
+            "content": "<p>Les retouches fréquentes et la repousse rapide peuvent rendre la zone difficile à entretenir. Avec une utilisation régulière, les poils repoussent plus lentement et plus finement.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_89aCde": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/doucyne_2.webp",
+            "column_size": "3",
+            "title": "Zone intime",
+            "heading_tag": "h4",
+            "content": "<p>La peau sensible de la zone intime réagit souvent au rasage et à la cire. Le sérum aide à ralentir la repousse tout en douceur.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LMCgR3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/doucyne_3.avif",
+            "column_size": "3",
+            "title": "Aisselles",
+            "heading_tag": "h4",
+            "content": "<p>Moins de repousse, moins d’irritations. Après quelques semaines, de nombreuses utilisatrices constatent des poils plus fins et une peau plus nette.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_NqqEXV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/dcsazc.png",
+            "column_size": "3",
+            "title": "Jambes",
+            "heading_tag": "h4",
+            "content": "<p>Fini les repousses rapides après le rasage. Le sérum aide à lisser la peau et à réduire l’effet peau de fraise en quelques semaines.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_N34N6P": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/doucyne_5.webp",
+            "column_size": "3",
+            "title": "Poitrine",
+            "heading_tag": "h4",
+            "content": "<p>Les zones sensibles méritent un soin doux. Le sérum agit délicatement sans agresser la peau ni provoquer d’inconfort.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_3BWJKm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/doucynne_6.webp",
+            "column_size": "3",
+            "title": "Sourcils",
+            "heading_tag": "h4",
+            "content": "<p>Les retouches répétées et la repousse rapide peuvent déséquilibrer la ligne. Avec une utilisation régulière, les poils repoussent plus lentement et plus finement.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_nRDAnW",
+        "item_89aCde",
+        "item_LMCgR3",
+        "item_NqqEXV",
+        "item_N34N6P",
+        "item_3BWJKm"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -313,6 +532,11 @@
     }
   },
   "order": [
+    "image_with_text_overlay_dbyWkn",
+    "logo_list_8TwqkX",
+    "rich_text_eaRXCm",
+    "image_with_text_overlay_BWUfLV",
+    "multi_column_tBGaah",
     "main",
     "tabs_n7MNB9",
     "images_with_text_scrolling_aYY3tW",
