@@ -12,10 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
+        "text_KfkAHp": {
+          "type": "text",
           "settings": {
-            "heading_tag": "h2"
+            "text": "<h2>Doucyne - Sérum Anti Repousse </h2>"
           }
         },
         "liquid_zn8JBT": {
@@ -50,7 +50,7 @@
         }
       },
       "block_order": [
-        "title",
+        "text_KfkAHp",
         "liquid_zn8JBT",
         "liquid_NeGmez",
         "kaching_bundles_app_block_yfpFwm",
