@@ -140,6 +140,131 @@
         "heading_gradient": ""
       }
     },
+    "images_with_text_scrolling_aYY3tW": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_mfgWGj": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>L'épilation constante et la repousse rapide des poils peuvent donner à la lèvre supérieure un aspect négligé. Avec un usage régulier, les poils repoussent visiblement plus lentement et plus fins.</p>"
+          }
+        },
+        "item_gUPAQp": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_mfgWGj",
+        "item_gUPAQp"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq_iRrACR": {
+      "type": "faq",
+      "blocks": {
+        "item_La7pmL": {
+          "type": "item",
+          "settings": {
+            "title": "À qui s’adresse Doucyne ?",
+            "content": "<p>Doucyne s’adresse aux femmes qui veulent réduire les poils visibles au visage, aux jambes, sous les aisselles ou sur la zone intime. C’est une solution idéale pour celles qui en ont assez du rasage fréquent, des irritations, des poils incarnés ou des marques sombres.</p>"
+          }
+        },
+        "item_BTzegD": {
+          "type": "item",
+          "settings": {
+            "title": "Comment agit Doucyne ?",
+            "content": "<p>Doucyne agit directement à la racine du poil. Au fil des utilisations, les poils repoussent plus fins, plus souples et moins visibles. En parallèle, la formule aide à apaiser et protéger la peau.</p>"
+          }
+        },
+        "item_qqeYr7": {
+          "type": "item",
+          "settings": {
+            "title": "Quand voir les premiers résultats ?",
+            "content": "<p>Certaines clientes remarquent dès les premières semaines une repousse plus discrète et une peau plus nette. Pour des résultats optimaux, il est conseillé d’utiliser Doucyne régulièrement pendant plusieurs semaines.</p>"
+          }
+        },
+        "item_eGH9qq": {
+          "type": "item",
+          "settings": {
+            "title": "Doucyne convient-il aux peaux sensibles ?",
+            "content": "<p>Oui, Doucyne a été formulé pour respecter les peaux sensibles. Il peut aider à calmer les inconforts liés au rasage ou à l’épilation. En cas de peau très réactive, faites d’abord un test sur une petite zone.</p>"
+          }
+        },
+        "item_MdYwTV": {
+          "type": "item",
+          "settings": {
+            "title": "Peut-on utiliser Doucyne sur le visage ?",
+            "content": "<p>Oui, Doucyne peut être utilisé sur le menton, la lèvre supérieure ou d’autres zones du visage concernées par les poils visibles. Une utilisation régulière permet de meilleurs résultats.</p>"
+          }
+        },
+        "item_cKnJbD": {
+          "type": "item",
+          "settings": {
+            "title": "Doucyne fonctionne-t-il aussi sur le corps ?",
+            "content": "<p>Oui, Doucyne peut également être appliqué sur les jambes, les aisselles ou la zone intime. Beaucoup de femmes l’utilisent pour retrouver une peau plus douce et limiter les irritations.</p>"
+          }
+        },
+        "item_rfk6Fz": {
+          "type": "item",
+          "settings": {
+            "title": "Et si Doucyne ne me convient pas ?",
+            "content": "<p>Vous bénéficiez d’une garantie satisfait ou remboursé de 90 jours. Vous pouvez essayer Doucyne en toute tranquillité et constater les résultats par vous-même, sans risque.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_La7pmL",
+        "item_BTzegD",
+        "item_qqeYr7",
+        "item_eGH9qq",
+        "item_MdYwTV",
+        "item_cKnJbD",
+        "item_rfk6Fz"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -166,6 +291,8 @@
   "order": [
     "main",
     "tabs_n7MNB9",
+    "images_with_text_scrolling_aYY3tW",
+    "faq_iRrACR",
     "related-products"
   ]
 }
