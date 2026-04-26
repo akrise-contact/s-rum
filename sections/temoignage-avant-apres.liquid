@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section Témoignage - Résultats Avant/Après</title>
+<style>
+  /* ===== VARIABLES ===== */
+  :root {
+    --violet: #8b5cf6;
+    --violet-light: #ede9fe;
+    --violet-border: #c4b5fd;
+    --text-dark: #111827;
+    --text-gray: #6b7280;
+    --border: #e5e7eb;
+    --bg: #ffffff;
+    --tab-active: #111827;
+    --tab-inactive: #9ca3af;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #f9fafb;
+    padding: 40px 20px;
+  }
+
+  /* ===== SECTION PRINCIPALE ===== */
+  .temoignage-section {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--bg);
+    border-radius: 16px;
+    padding: 36px 40px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  }
+
+  /* ===== EN-TÊTE ===== */
+  .temoignage-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .temoignage-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--violet-border);
+    flex-shrink: 0;
+  }
+
+  .temoignage-avatar-placeholder {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--violet), #a78bfa);
+    border: 3px solid var(--violet-border);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .temoignage-header-text h2 {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text-dark);
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+
+  .temoignage-header-text p {
+    font-size: 14px;
+    color: var(--text-gray);
+    line-height: 1.5;
+  }
+
+  /* ===== ONGLETS ===== */
+  .temoignage-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 1.5px solid var(--border);
+    margin-bottom: 28px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .temoignage-tabs::-webkit-scrollbar { display: none; }
+
+  .tab-btn {
+    padding: 10px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--tab-inactive);
+    background: none;
+    border: none;
+    border-bottom: 2.5px solid transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.2s, border-color 0.2s;
+    margin-bottom: -1.5px;
+  }
+
+  .tab-btn:hover { color: var(--text-dark); }
+
+  .tab-btn.active {
+    color: var(--tab-active);
+    font-weight: 700;
+    border-bottom-color: var(--violet);
+  }
+
+  /* ===== CONTENU DE L'ONGLET ===== */
+  .tab-content { display: none; }
+  .tab-content.active { display: flex; gap: 36px; align-items: flex-start; }
+
+  /* ===== IMAGES AVANT/APRÈS ===== */
+  .temoignage-images {
+    flex: 0 0 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .temoignage-images img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .image-placeholder {
+    width: 100%;
+    height: 200px;
+    background: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    font-size: 13px;
+    gap: 8px;
+    border: 2px dashed #e5e7eb;
+  }
+
+  .image-placeholder svg {
+    width: 32px;
+    height: 32px;
+    opacity: 0.4;
+  }
+
+  /* ===== TEXTE DE RÉSULTAT ===== */
+  .temoignage-result {
+    flex: 1;
+    padding-top: 8px;
+  }
+
+  .temoignage-result p {
+    font-size: 16px;
+    color: var(--text-dark);
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  .badge-delai {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: var(--violet-light);
+    color: var(--violet);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 999px;
+  }
+
+  .badge-delai svg {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 640px) {
+    .temoignage-section { padding: 24px 18px; }
+    .tab-content.active { flex-direction: column; }
+    .temoignage-images { flex: none; width: 100%; }
+    .temoignage-header-text h2 { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="temoignage-section">
+
+  <!-- EN-TÊTE -->
+  <div class="temoignage-header">
+    <!-- Remplacez le span par <img src="URL_PHOTO" class="temoignage-avatar"> si vous avez une photo -->
+    <div class="temoignage-avatar-placeholder">M</div>
+    <div class="temoignage-header-text">
+      <h2>Le résultat de Marie après 4 semaines : « Je n'aurais jamais cru que je pourrais arrêter de lutter »</h2>
+      <p>Marie a lutté pendant 10 ans. Rasée, épilée, cirée. Après 4 semaines : moins de poils, une peau plus douce.</p>
+    </div>
+  </div>
+
+  <!-- ONGLETS -->
+  <div class="temoignage-tabs">
+    <button class="tab-btn active" onclick="showTab('duvet', this)">Duvet du visage</button>
+    <button class="tab-btn" onclick="showTab('zone-intime', this)">Zone intime</button>
+    <button class="tab-btn" onclick="showTab('aisselles', this)">Aisselles</button>
+    <button class="tab-btn" onclick="showTab('jambes', this)">Jambes</button>
+    <button class="tab-btn" onclick="showTab('poitrine', this)">Poitrine</button>
+    <button class="tab-btn" onclick="showTab('sourcils', this)">Sourcils</button>
+  </div>
+
+  <!-- ONGLET 1 : Duvet du visage -->
+  <div class="tab-content active" id="tab-duvet">
+    <div class="temoignage-images">
+      <!-- AVANT -->
+      <!-- Remplacez par : <img src="URL_IMAGE_AVANT" alt="Avant - Duvet du visage"> -->
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image AVANT
+      </div>
+      <!-- APRÈS -->
+      <!-- Remplacez par : <img src="URL_IMAGE_APRÈS" alt="Après - Duvet du visage"> -->
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image APRÈS
+      </div>
+    </div>
+    <div class="temoignage-result">
+      <p>S'épiler constamment et voir les poils repousser rapidement peut donner à la lèvre supérieure un aspect négligé. Avec une utilisation régulière, les poils repoussent visiblement plus lentement et plus fins.</p>
+      <div class="badge-delai">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Visible en 3–4 semaines
+      </div>
+    </div>
+  </div>
+
+  <!-- ONGLET 2 : Zone intime -->
+  <div class="tab-content" id="tab-zone-intime">
+    <div class="temoignage-images">
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image AVANT
+      </div>
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image APRÈS
+      </div>
+    </div>
+    <div class="temoignage-result">
+      <p>La zone intime est souvent la plus sensible. Grâce à une utilisation régulière, les poils incarnés disparaissent et la peau retrouve une texture plus douce et uniforme dès les premières semaines.</p>
+      <div class="badge-delai">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Visible en 3–4 semaines
+      </div>
+    </div>
+  </div>
+
+  <!-- ONGLET 3 : Aisselles -->
+  <div class="tab-content" id="tab-aisselles">
+    <div class="temoignage-images">
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image AVANT
+      </div>
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image APRÈS
+      </div>
+    </div>
+    <div class="temoignage-result">
+      <p>Le rasage fréquent des aisselles provoque irritations et poils repoussant drus. En quelques semaines d'utilisation, la repousse ralentit nettement et la peau reste lisse beaucoup plus longtemps.</p>
+      <div class="badge-delai">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Visible en 2–3 semaines
+      </div>
+    </div>
+  </div>
+
+  <!-- ONGLET 4 : Jambes -->
+  <div class="tab-content" id="tab-jambes">
+    <div class="temoignage-images">
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image AVANT
+      </div>
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image APRÈS
+      </div>
+    </div>
+    <div class="temoignage-result">
+      <p>Les jambes sont une grande surface souvent difficile à entretenir. Après 4 semaines de traitement régulier, les poils repoussent plus fins et les petits boutons dus au rasage disparaissent progressivement.</p>
+      <div class="badge-delai">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Visible en 4–5 semaines
+      </div>
+    </div>
+  </div>
+
+  <!-- ONGLET 5 : Poitrine -->
+  <div class="tab-content" id="tab-poitrine">
+    <div class="temoignage-images">
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image AVANT
+      </div>
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image APRÈS
+      </div>
+    </div>
+    <div class="temoignage-result">
+      <p>Les poils autour de la poitrine peuvent être une source d'inconfort et de gêne. Avec une application régulière, la repousse devient moins visible et la texture de la peau s'améliore sensiblement.</p>
+      <div class="badge-delai">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Visible en 3–4 semaines
+      </div>
+    </div>
+  </div>
+
+  <!-- ONGLET 6 : Sourcils -->
+  <div class="tab-content" id="tab-sourcils">
+    <div class="temoignage-images">
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image AVANT
+      </div>
+      <div class="image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16l4-4 4 4 4-6 4 6"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg>
+        Image APRÈS
+      </div>
+    </div>
+    <div class="temoignage-result">
+      <p>Les sourcils nécessitent un entretien fréquent pour rester nets. Une application ciblée autour du tracé permet de ralentir la repousse des poils indésirables et de maintenir une forme soignée plus longtemps.</p>
+      <div class="badge-delai">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Visible en 3–4 semaines
+      </div>
+    </div>
+  </div>
+
+</div><!-- fin .temoignage-section -->
+
+<script>
+  function showTab(tabId, btn) {
+    // Cacher tous les contenus
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+    // Désactiver tous les boutons
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+    // Afficher l'onglet sélectionné
+    document.getElementById('tab-' + tabId).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
