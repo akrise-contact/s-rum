@@ -148,8 +148,26 @@
           "settings": {
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>L'épilation constante et la repousse rapide des poils peuvent donner à la lèvre supérieure un aspect négligé. Avec un usage régulier, les poils repoussent visiblement plus lentement et plus fins.</p>"
+            "title": "Semaine 1",
+            "content": "<p><strong>Les premiers changements</strong></p><p>Votre peau commence à s’adapter. Le sérum pénètre en profondeur dans les follicules pileux et aide à ralentir la pousse en douceur.</p><ul><li>Peau plus douce et plus lisse</li><li>Repousse visiblement ralentie</li><li>Premiers effets après 5 à 7 jours</li></ul>"
+          }
+        },
+        "item_6NEkFU": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Semaine 2",
+            "content": "<p><strong>Beaucoup moins de repousse</strong></p><p>La vitesse de repousse diminue nettement. Beaucoup d’utilisatrices utilisent moins souvent le rasoir ou la pince.</p><ul><li>Jusqu’à 40 % de repousse en moins</li><li>Peau lisse plus longtemps</li><li>Moins de poils incarnés</li></ul>"
+          }
+        },
+        "item_FQy7L8": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Semaine 3",
+            "content": "<p><strong>Des poils visiblement plus fins</strong></p><p>Les poils qui repoussent deviennent plus fins et plus clairs. La peau paraît plus douce au toucher.</p><ul><li>Poils plus fins et plus clairs</li><li>Fini le stress du miroir</li><li>Peau visiblement plus nette</li></ul>"
           }
         },
         "item_gUPAQp": {
@@ -157,13 +175,15 @@
           "settings": {
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "Semaine 4",
+            "content": "<p><strong>Le résultat complet</strong></p><p>Après 4 semaines, nos utilisatrices constatent une peau durablement plus lisse, moins d’entretien au quotidien et davantage de confiance en elles.</p><ul><li>Jusqu’à -70 % de poils visibles </li><li>Peau durablement entretenue</li><li>Plus besoin de lutter chaque jour</li></ul>"
           }
         }
       },
       "block_order": [
         "item_mfgWGj",
+        "item_6NEkFU",
+        "item_FQy7L8",
         "item_gUPAQp"
       ],
       "name": "Images and text scrolling",
