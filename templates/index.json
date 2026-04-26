@@ -9,32 +9,39 @@
  */
 {
   "sections": {
-    "faq": {
-      "type": "faq",
+    "multiple_images_with_text_rEiwVE": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_BtiDHA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260426_092629_f4bb5b39-cd6a-4040-ad74-cdcbaffdb28a.png",
+            "image_rotation_degrees": -2,
+            "subheading": "Fini les poils qui repoussent.",
+            "title": "Place à une peau durablement douce.",
+            "content": "<p>Le Sérum Anti-Repousse Doucyne ralentit naturellement la repousse des poils après chaque épilation. <strong>Résultats visibles dès 3–4 semaines</strong>, sur le visage, le corps et les zones sensibles.</p>",
+            "button_url": "shopify://products/serum-anti-repousse-doucyne",
+            "button_text": "Découvrir"
+          }
+        }
+      },
+      "block_order": [
+        "item_BtiDHA"
+      ],
+      "name": "Multiple images with text",
       "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "button_background": "#6c589e",
+        "button_text_color": "#ffffff"
       }
     }
   },
   "order": [
-    "faq"
+    "multiple_images_with_text_rEiwVE"
   ]
 }

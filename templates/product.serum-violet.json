@@ -256,6 +256,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "liquid_MeTh8f": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
         }
       },
       "block_order": [
@@ -263,7 +269,8 @@
         "liquid_zAX4Jg",
         "liquid_NeGmez",
         "kaching_bundles_app_block_yfpFwm",
-        "buy_buttons"
+        "buy_buttons",
+        "liquid_MeTh8f"
       ],
       "settings": {
         "full_width": true,
