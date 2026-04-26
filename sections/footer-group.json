@@ -21,10 +21,28 @@
             "content": "<p>Par mail : contact@doucyne.com</p><p>Réponse sous 48h, 7 jours sur 7.</p>",
             "enable_follow_on_shop": false
           }
+        },
+        "links_KUkLaq": {
+          "type": "links",
+          "settings": {
+            "menu": "informations-1",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_CGreRQ": {
+          "type": "links",
+          "settings": {
+            "menu": "informations",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
         }
       },
       "block_order": [
-        "text_qiU9wW"
+        "text_qiU9wW",
+        "links_KUkLaq",
+        "links_CGreRQ"
       ],
       "settings": {
         "show_social_media": true,
