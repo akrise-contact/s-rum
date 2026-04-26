@@ -437,6 +437,55 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_Y9XDmk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wQTkWe": {
+          "type": "heading",
+          "settings": {
+            "text": "Porte ce que tu veux dès 3 semaines",
+            "heading_tag": "h2",
+            "text_color": "#6c589e",
+            "gradient": ""
+          }
+        },
+        "richtext_tCbfa4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>La cire et le rasoir retirent le poil. Ils ne stoppent jamais la repousse. Notre huile agit directement sur le follicule — les poils disparaissent définitivement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wQTkWe",
+        "richtext_tCbfa4"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_UKV4dB": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/ hbnknb.mp4",
+        "mobile_video": "shopify://files/videos/ hbnknb.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "faq_iRrACR": {
       "type": "faq",
       "blocks": {
@@ -554,6 +603,8 @@
     "main",
     "tabs_n7MNB9",
     "images_with_text_scrolling_aYY3tW",
+    "rich_text_Y9XDmk",
+    "video_UKV4dB",
     "faq_iRrACR",
     "related-products"
   ]
