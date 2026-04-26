@@ -257,10 +257,12 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_MeTh8f": {
-          "type": "liquid",
+        "image_EWqHit": {
+          "type": "image",
           "settings": {
-            "liquid": ""
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-26_a_14.29.44.png",
+            "alignment": "start",
+            "max_width": 500
           }
         }
       },
@@ -270,7 +272,7 @@
         "liquid_NeGmez",
         "kaching_bundles_app_block_yfpFwm",
         "buy_buttons",
-        "liquid_MeTh8f"
+        "image_EWqHit"
       ],
       "settings": {
         "full_width": true,
