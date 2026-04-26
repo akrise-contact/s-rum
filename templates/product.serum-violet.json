@@ -1,0 +1,171 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text_KfkAHp": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Doucyne - Sérum Anti Repousse </h2>"
+          }
+        },
+        "liquid_zAX4Jg": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<ul style=\"list-style:none; padding:0; margin:0;\">\n  {% if shop.locale == 'fr' %}\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400;\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img { margin: 0 10px; }\n        .container-trustpilot .stars { max-width: 80px; }\n        .container-trustpilot .logo { max-width: 70px; }\n        .container-trustpilot span { margin: 0 5px; }\n        .excellent { color: #000; font-size: 12px; }\n        .rating-text { color: #000; font-size: 10px; }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.7/5 Rating\">\n        <span class=\"rating-text\">noté 4.8/5 sur</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>\n\n  {% elsif shop.locale == 'it' %}\n<!DOCTYPE html>\n<html lang=\"it\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400;\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img { margin: 0 10px; }\n        .container-trustpilot .stars { max-width: 80px; }\n        .container-trustpilot .logo { max-width: 70px; }\n        .container-trustpilot span { margin: 0 5px; }\n        .excellent { color: #000; font-size: 12px; }\n        .rating-text { color: #000; font-size: 10px; }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"ECCELLENTE\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.7/5 Rating\">\n        <span class=\"rating-text\">valutato 4,8/5 su</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>\n\n  {% elsif shop.locale == 'es' %}\n<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400;\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img { margin: 0 10px; }\n        .container-trustpilot .stars { max-width: 80px; }\n        .container-trustpilot .logo { max-width: 70px; }\n        .container-trustpilot span { margin: 0 5px; }\n        .excellent { color: #000; font-size: 12px; }\n        .rating-text { color: #000; font-size: 10px; }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELENTE\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.7/5 Rating\">\n        <span class=\"rating-text\">valorado 4,8/5 en</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>\n  {% endif %}\n</ul>"
+          }
+        },
+        "liquid_NeGmez": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin-top:8px; margin-bottom:10px; color:#2b2f38; font-size:16px; line-height:1.22; letter-spacing:0.2px;\">\n\n  <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:12px;\">\n    <span style=\"color:#b79be8; font-size:20px; letter-spacing:1px;\">★★★★★</span>\n    <span style=\"font-size:16px;\">4,7 (8,378 avis)</span>\n  </div>\n\n  <div style=\"display:flex; flex-direction:column; gap:1px;\">\n    <div>🪒 Fini rasage quotidien</div>\n    <div>✨ Peau douce, sans irritation</div>\n    <div>🌿 100% naturel, sans hormones</div>\n    <div>💜 Poils plus fins dès 1 semaine</div>\n  </div>\n\n</div>"
+          }
+        },
+        "kaching_bundles_app_block_yfpFwm": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}",
+            "manual_deal_block_id": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#00b67a",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_KfkAHp",
+        "liquid_zAX4Jg",
+        "liquid_NeGmez",
+        "kaching_bundles_app_block_yfpFwm",
+        "buy_buttons"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "tabs_n7MNB9": {
+      "type": "tabs",
+      "blocks": {
+        "tab_Pa6Xz9": {
+          "type": "tab",
+          "settings": {
+            "title": "Comment bien utiliser Doucyne",
+            "content": "<p>Peu importe la zone : visage, menton, lèvre supérieure, aisselles, jambes ou zone intime.</p><p></p><p>Applique chaque jour quelques gouttes sur les zones qui te gênent le plus.<br/><br/>Masse brièvement le sérum puis laisse pénétrer.<br/><br/>Pas de rasage, pas d’épilation, aucun effort supplémentaire.<br/></p><p>Alors que d’autres méthodes irritent la peau et stimulent souvent la repousse, <strong>Doucyne</strong> agit directement à la racine, là où le problème commence.</p>",
+            "page": ""
+          }
+        },
+        "tab_XBTXD4": {
+          "type": "tab",
+          "settings": {
+            "title": "Comment Doucyne fonctionne",
+            "content": "<p>Doucyne n’agit pas comme les méthodes classiques qui retirent simplement les poils. Il cible directement leur origine : la racine.</p><p>Alors que le rasage, l’épilation ou la cire irritent la peau et favorisent parfois la repousse, Doucyne aide à casser ce cycle.</p><p>Ses actifs aident à :</p><ul><li>ralentir visiblement la pousse des poils</li><li>rendre les poils plus fins et moins visibles</li><li>apaiser la peau et réduire les irritations</li></ul><p>Avec une utilisation régulière, les repousses s’espacent de plus en plus.</p>",
+            "page": ""
+          }
+        },
+        "tab_ULiyjn": {
+          "type": "tab",
+          "settings": {
+            "title": "Contenu de l’offre",
+            "content": "<p>Tu peux choisir entre deux options :</p><p><br/></p><p><strong>1x Doucyne</strong><br/><br/>Parfait pour tester et découvrir.</p><p><br/></p><p><strong>Pack 2+1 GRATUIT</strong><br/><br/>Reçois 3 flacons pour le prix de 2. Idéal pour une utilisation continue sur plusieurs semaines. Comme les meilleurs résultats apparaissent avec une application régulière, la majorité choisit directement cette offre.</p>",
+            "page": ""
+          }
+        },
+        "tab_AwxQyx": {
+          "type": "tab",
+          "settings": {
+            "title": "Garantie 90 jours peau nette",
+            "content": "<p>Teste Doucyne pendant 90 jours sur tes zones problématiques.</p><p><br/></p><p>Si tes poils ne repoussent pas visiblement plus lentement, tu es remboursé(e).</p><p><br/></p><p>Tu n’as rien à perdre, sauf la corvée quotidienne du rasage et de l’épilation.</p>",
+            "page": ""
+          }
+        },
+        "tab_RrXAzM": {
+          "type": "tab",
+          "settings": {
+            "title": "J’ai déjà tout essayé. Pourquoi ce serait différent ?",
+            "content": "<p>Parce qu’avant, tu retirais seulement les poils, pas la cause.</p><p>Le rasage, l’épilation et la cire traitent le symptôme. À chaque fois, la racine est stimulée, ce qui peut rendre la repousse plus épaisse, plus rapide et plus tenace.</p><p><strong>Doucyne</strong> agit à la source : le <strong>Cyperus Rotundus</strong>, plante utilisée depuis l’Antiquité, aide naturellement à affaiblir le follicule pileux. Au fil des cycles, les poils deviennent plus fins et moins visibles.</p><p>Sans arrachage. Sans agression pour la peau.</p><p>En plus :</p><ul><li>l’extrait de menthe poivrée apaise immédiatement la peau irritée</li><li>l’extrait d’agrumes aide à estomper les marques sombres</li><li>l’extrait d’olive protège durablement la barrière cutanée</li></ul><p>Ce n’est pas un essai de plus. C’est une autre approche.</p><p>Et si après 30 jours tu ne vois aucune différence, tu es remboursé(e). Sans stress, sans question.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_Pa6Xz9",
+        "tab_XBTXD4",
+        "tab_ULiyjn",
+        "tab_AwxQyx",
+        "tab_RrXAzM"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "tabs_n7MNB9",
+    "related-products"
+  ]
+}
