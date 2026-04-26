@@ -27,7 +27,7 @@
         "liquid_NeGmez": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"margin-top:8px; margin-bottom:10px; color:#2b2f38; font-size:15px; line-height:1.28; letter-spacing:0.3px;\">\n\n  <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:12px;\">\n    <span style=\"color:#b79be8; font-size:15px; letter-spacing:1px;\">★★★★★</span>\n    <span style=\"font-size:18px;\">4,7 (8,378 avis)</span>\n  </div>\n\n  <div style=\"display:flex; flex-direction:column; gap:2px;\">\n    <div>🪒 Fini rasage quotidien</div>\n    <div>✨ Peau douce, sans irritation</div>\n    <div>🌿 100% naturel, sans hormones</div>\n    <div>💜 Poils plus fins dès 1 semaine</div>\n  </div>\n\n</div>"
+            "liquid": "<div style=\"margin-top:8px; margin-bottom:10px; color:#2b2f38; font-size:16px; line-height:1.22; letter-spacing:0.2px;\">\n\n  <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:12px;\">\n    <span style=\"color:#b79be8; font-size:20px; letter-spacing:1px;\">★★★★★</span>\n    <span style=\"font-size:16px;\">4,7 (8,378 avis)</span>\n  </div>\n\n  <div style=\"display:flex; flex-direction:column; gap:1px;\">\n    <div>🪒 Fini rasage quotidien</div>\n    <div>✨ Peau douce, sans irritation</div>\n    <div>🌿 100% naturel, sans hormones</div>\n    <div>💜 Poils plus fins dès 1 semaine</div>\n  </div>\n\n</div>"
           }
         },
         "kaching_bundles_app_block_yfpFwm": {
