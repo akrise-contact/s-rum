@@ -440,11 +440,17 @@
     "rich_text_Y9XDmk": {
       "type": "rich-text",
       "blocks": {
+        "subheading_MTjfxT": {
+          "type": "subheading",
+          "settings": {
+            "text": "Porte ce que tu veux "
+          }
+        },
         "heading_wQTkWe": {
           "type": "heading",
           "settings": {
-            "text": "Porte ce que tu veux dès 3 semaines",
-            "heading_tag": "h2",
+            "text": "Dès 3 semaines",
+            "heading_tag": "h1",
             "text_color": "#6c589e",
             "gradient": ""
           }
@@ -457,6 +463,7 @@
         }
       },
       "block_order": [
+        "subheading_MTjfxT",
         "heading_wQTkWe",
         "richtext_tCbfa4"
       ],
