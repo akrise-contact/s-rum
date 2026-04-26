@@ -72,7 +72,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Vu sur",
+        "title": "Ils parlent de nous",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
@@ -87,20 +87,6 @@
     },
     "rich_text_eaRXCm": {
       "type": "rich-text",
-      "blocks": {
-        "heading_8eWETa": {
-          "type": "heading",
-          "settings": {
-            "text": "Pourquoi choisir Doucyne ?",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_8eWETa"
-      ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -119,6 +105,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/hf_20260426_093351_afd5f83a-f73d-45ee-9fb7-a16ca7c76df9.png",
+        "mobile_image": "shopify://shop_images/hf_20260426_093351_afd5f83a-f73d-45ee-9fb7-a16ca7c76df9.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
