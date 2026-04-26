@@ -18,7 +18,7 @@
             "text": "<h2>Doucyne - Sérum Anti Repousse </h2>"
           }
         },
-        "liquid_zn8JBT": {
+        "liquid_zAX4Jg": {
           "type": "liquid",
           "settings": {
             "liquid": "<ul style=\"list-style:none; padding:0; margin:0;\">\n  {% if shop.locale == 'fr' %}\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400;\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img { margin: 0 10px; }\n        .container-trustpilot .stars { max-width: 80px; }\n        .container-trustpilot .logo { max-width: 70px; }\n        .container-trustpilot span { margin: 0 5px; }\n        .excellent { color: #000; font-size: 12px; }\n        .rating-text { color: #000; font-size: 10px; }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELLENT\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.7/5 Rating\">\n        <span class=\"rating-text\">noté 4.8/5 sur</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>\n\n  {% elsif shop.locale == 'it' %}\n<!DOCTYPE html>\n<html lang=\"it\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400;\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img { margin: 0 10px; }\n        .container-trustpilot .stars { max-width: 80px; }\n        .container-trustpilot .logo { max-width: 70px; }\n        .container-trustpilot span { margin: 0 5px; }\n        .excellent { color: #000; font-size: 12px; }\n        .rating-text { color: #000; font-size: 10px; }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"ECCELLENTE\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.7/5 Rating\">\n        <span class=\"rating-text\">valutato 4,8/5 su</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>\n\n  {% elsif shop.locale == 'es' %}\n<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Rating</title>\n    <style>\n        .container-trustpilot {\n            background-color: #e9f8fe;\n            border: 1px dashed #006400;\n            padding: 5px 5px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            border-radius: 10px;\n        }\n        .container-trustpilot img { margin: 0 10px; }\n        .container-trustpilot .stars { max-width: 80px; }\n        .container-trustpilot .logo { max-width: 70px; }\n        .container-trustpilot span { margin: 0 5px; }\n        .excellent { color: #000; font-size: 12px; }\n        .rating-text { color: #000; font-size: 10px; }\n    </style>\n</head>\n<body>\n    <div class=\"container-trustpilot\">\n        <span class=\"excellent\"><b>\"EXCELENTE\"</b></span>\n        <img class=\"stars\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/4.5-stars-trustpilot_2157d8d9-101e-46a2-a3fe-ac80f2fecf10.png?v=1688082792\" alt=\"4.7/5 Rating\">\n        <span class=\"rating-text\">valorado 4,8/5 en</span>\n        <img class=\"logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot Logo\">\n    </div>\n</body>\n</html>\n  {% endif %}\n</ul>"
@@ -27,7 +27,7 @@
         "liquid_NeGmez": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"line-height:1.15; margin:0;\">\n  <p style=\"margin:2px 0;\">🪒 Fini rasage quotidien</p>\n  <p style=\"margin:2px 0;\">✨ Peau douce, sans irritation</p>\n  <p style=\"margin:2px 0;\">🌿 100% naturel, sans hormones</p>\n  <p style=\"margin:2px 0;\">💜 Poils plus fins dès 1 semaine</p>\n</div>"
+            "liquid": "<div style=\"margin-top:8px; margin-bottom:10px; color:#2b2f38; font-size:15px; line-height:1.28; letter-spacing:0.3px;\">\n\n  <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:12px;\">\n    <span style=\"color:#b79be8; font-size:15px; letter-spacing:1px;\">★★★★★</span>\n    <span style=\"font-size:18px;\">4,7 (8,378 avis)</span>\n  </div>\n\n  <div style=\"display:flex; flex-direction:column; gap:2px;\">\n    <div>🪒 Fini rasage quotidien</div>\n    <div>✨ Peau douce, sans irritation</div>\n    <div>🌿 100% naturel, sans hormones</div>\n    <div>💜 Poils plus fins dès 1 semaine</div>\n  </div>\n\n</div>"
           }
         },
         "kaching_bundles_app_block_yfpFwm": {
@@ -51,7 +51,7 @@
       },
       "block_order": [
         "text_KfkAHp",
-        "liquid_zn8JBT",
+        "liquid_zAX4Jg",
         "liquid_NeGmez",
         "kaching_bundles_app_block_yfpFwm",
         "buy_buttons"
@@ -62,7 +62,7 @@
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
