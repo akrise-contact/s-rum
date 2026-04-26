@@ -146,6 +146,7 @@
         "item_mfgWGj": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-26_a_10.32.38.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Semaine 1",
@@ -155,6 +156,7 @@
         "item_6NEkFU": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-26_a_10.32.50.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Semaine 2",
@@ -164,6 +166,7 @@
         "item_FQy7L8": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-26_a_10.33.02.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Semaine 3",
@@ -173,6 +176,7 @@
         "item_gUPAQp": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-26_a_10.33.12.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Semaine 4",
@@ -190,9 +194,9 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "show_counter": true,
+        "show_counter": false,
         "desktop_image_effect": "reveal",
-        "image_position": "end",
+        "image_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
