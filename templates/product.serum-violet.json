@@ -17,6 +17,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/hf_20260426_092629_f4bb5b39-cd6a-4040-ad74-cdcbaffdb28a.png",
+        "mobile_image": "shopify://shop_images/hf_20260426_092629_f4bb5b39-cd6a-4040-ad74-cdcbaffdb28a.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -222,7 +224,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "",
-        "content": "",
+        "content": "<h5><strong>Le résultat de Marie après 4 semaines: « Je n’aurais jamais pensé pouvoir enfin arrêter de me battre »</strong></h5><p></p><p>Marie a lutté pendant 10 ans. Rasage, pince, cire… Après 4 semaines : moins de poils, une peau plus douce.</p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
