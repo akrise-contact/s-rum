@@ -14,15 +14,23 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_xbij8J": {
+          "type": "message",
+          "settings": {
+            "text": "2 + 1 Gratuit",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Livraison gratuite",
             "url": ""
           }
         }
       },
       "block_order": [
+        "message_xbij8J",
         "message"
       ],
       "settings": {
