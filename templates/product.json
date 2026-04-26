@@ -74,6 +74,72 @@
         "input_text_color": ""
       }
     },
+    "tabs_n7MNB9": {
+      "type": "tabs",
+      "blocks": {
+        "tab_Pa6Xz9": {
+          "type": "tab",
+          "settings": {
+            "title": "Comment bien utiliser Doucyne",
+            "content": "<p>Peu importe la zone : visage, menton, lèvre supérieure, aisselles, jambes ou zone intime.</p><p></p><p>Applique chaque jour quelques gouttes sur les zones qui te gênent le plus.<br/><br/>Masse brièvement le sérum puis laisse pénétrer.<br/><br/>Pas de rasage, pas d’épilation, aucun effort supplémentaire.<br/></p><p>Alors que d’autres méthodes irritent la peau et stimulent souvent la repousse, <strong>Doucyne</strong> agit directement à la racine, là où le problème commence.</p>",
+            "page": ""
+          }
+        },
+        "tab_XBTXD4": {
+          "type": "tab",
+          "settings": {
+            "title": "Comment Doucyne fonctionne",
+            "content": "<p>Doucyne n’agit pas comme les méthodes classiques qui retirent simplement les poils. Il cible directement leur origine : la racine.</p><p>Alors que le rasage, l’épilation ou la cire irritent la peau et favorisent parfois la repousse, Doucyne aide à casser ce cycle.</p><p>Ses actifs aident à :</p><ul><li>ralentir visiblement la pousse des poils</li><li>rendre les poils plus fins et moins visibles</li><li>apaiser la peau et réduire les irritations</li></ul><p>Avec une utilisation régulière, les repousses s’espacent de plus en plus.</p>",
+            "page": ""
+          }
+        },
+        "tab_ULiyjn": {
+          "type": "tab",
+          "settings": {
+            "title": "Contenu de l’offre",
+            "content": "<p>Tu peux choisir entre deux options :</p><p><br/></p><p><strong>1x Doucyne</strong><br/><br/>Parfait pour tester et découvrir.</p><p><br/></p><p><strong>Pack 2+1 GRATUIT</strong><br/><br/>Reçois 3 flacons pour le prix de 2. Idéal pour une utilisation continue sur plusieurs semaines. Comme les meilleurs résultats apparaissent avec une application régulière, la majorité choisit directement cette offre.</p>",
+            "page": ""
+          }
+        },
+        "tab_AwxQyx": {
+          "type": "tab",
+          "settings": {
+            "title": "Garantie 90 jours peau nette",
+            "content": "<p>Teste Doucyne pendant 90 jours sur tes zones problématiques.</p><p><br/></p><p>Si tes poils ne repoussent pas visiblement plus lentement, tu es remboursé(e).</p><p><br/></p><p>Tu n’as rien à perdre, sauf la corvée quotidienne du rasage et de l’épilation.</p>",
+            "page": ""
+          }
+        },
+        "tab_RrXAzM": {
+          "type": "tab",
+          "settings": {
+            "title": "J’ai déjà tout essayé. Pourquoi ce serait différent ?",
+            "content": "<p>Parce qu’avant, tu retirais seulement les poils, pas la cause.</p><p>Le rasage, l’épilation et la cire traitent le symptôme. À chaque fois, la racine est stimulée, ce qui peut rendre la repousse plus épaisse, plus rapide et plus tenace.</p><p><strong>Doucyne</strong> agit à la source : le <strong>Cyperus Rotundus</strong>, plante utilisée depuis l’Antiquité, aide naturellement à affaiblir le follicule pileux. Au fil des cycles, les poils deviennent plus fins et moins visibles.</p><p>Sans arrachage. Sans agression pour la peau.</p><p>En plus :</p><ul><li>l’extrait de menthe poivrée apaise immédiatement la peau irritée</li><li>l’extrait d’agrumes aide à estomper les marques sombres</li><li>l’extrait d’olive protège durablement la barrière cutanée</li></ul><p>Ce n’est pas un essai de plus. C’est une autre approche.</p><p>Et si après 30 jours tu ne vois aucune différence, tu es remboursé(e). Sans stress, sans question.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_Pa6Xz9",
+        "tab_XBTXD4",
+        "tab_ULiyjn",
+        "tab_AwxQyx",
+        "tab_RrXAzM"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -99,6 +165,7 @@
   },
   "order": [
     "main",
+    "tabs_n7MNB9",
     "related-products"
   ]
 }
